@@ -71,9 +71,6 @@ Acrescente `--leve` a qualquer comando de render: fica mais devagar e deixa a m�
 
 Copie o `.env.example` para `.env` e preencha `ELEVENLABS_API_KEY` e `ELEVENLABS_VOZ_ID` (na ElevenLabs: Voices → a voz → ID). O comando sem `--confirmo` mostra quantos caracteres vai gastar. Com `--confirmo`, ele gera **uma** tomada por fala, sem variações, e os tempos de cada palavra vêm da própria ElevenLabs.
 
-## A marca d'água
-
-Todo vídeo feito com este estúdio leva uma **marca d'água fraca do canal LABS**: 1,5% de opacidade, só o nome em letras pequenas, num dos cantos, mudando de canto durante o vídeo. Ela é condição da licença (arquivo `LICENSE`, seção 3), e `npm run conferir -- marca` confere se ela está intacta. O resto do vídeo é seu: roteiro, ideias, publicação e monetização.
 
 ## O que ainda não foi testado
 
@@ -86,10 +83,6 @@ Todo vídeo feito com este estúdio leva uma **marca d'água fraca do canal LABS
 - Vídeos, imagens ou textos de outros canais.
 - Músicas: use as suas, com licença, em `"musica"` no plano. Sem música, entra um fundo tonal baixinho.
 - A voz paga: é com a sua conta.
-
-## Licença
-
-Licença própria (arquivo `LICENSE`): uso livre, inclusive comercial, com uma condição: todo vídeo publicado leva a marca d'água do canal do Titular. Não é permitido vender o estúdio como produto, curso ou template. Os componentes de terceiros (three.js, Playwright, fontes) seguem as licenças deles (`LICENCAS_TERCEIROS.md`).
 
 ## Instalação automática: o que ela faz e o que não faz
 
